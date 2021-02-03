@@ -1,0 +1,39 @@
+{
+  "$jason": {
+    "head": {
+      "title": "HLB Intranet",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Login to the Intranet",
+              "href": {
+                "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
+                "view": "Web"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
