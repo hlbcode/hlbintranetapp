@@ -25,7 +25,7 @@
     },
     "body": {
       "background": {
-        "type": "html",
+        "type": "javascript",
         "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
         "action": {
           "trigger": "visit"
