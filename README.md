@@ -1,3 +1,5 @@
-# hlbintranetapp
+# HLB Intranet APP
 
-HLB Intranet APP Webwrapper
+HLB Intranet APP 
+Native Android /iOS 
+Webwrapper
