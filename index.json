@@ -1,32 +1,17 @@
 {
   "$jason": {
     "head": {
-      "title": "Jasonbase",
+      "title": "HLB Intranet",
       "actions": {
-        "visit": [
-          {
-            "{{#if /\\/edit/.test($jason.url)}}": {
-              "type": "$href",
-              "options": {
-                "url": "{{$jason.url.replace('/edit', '')}}",
-                "preload": {
-                  "background": "#ffffff"
-                }
-              }
-            }
-          },
-          {
-            "{{#else}}": {
+        "visit": {
               "type": "$default"
-            }
           }
-        ]
       }
     },
     "body": {
       "background": {
         "type": "html",
-        "text": "https://hlbi.sharepoint.com/sites/hlbintranet/",
+        "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
         "action": {
           "trigger": "visit"
         }
