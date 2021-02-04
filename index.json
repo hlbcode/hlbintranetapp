@@ -50,6 +50,22 @@
                 "font": "HelveticaNeue",
                 "size": "16"
               },
+              "text": "Access the Referrals",
+              "href": {
+                "url": "https://hlbi.sharepoint.com/sites/hlbreferrals/",
+                "view": "Web"
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "left",
+                "padding-left": "50",
+                "padding-bottom": "16",
+                "color": "#ffffff",
+                "font": "HelveticaNeue",
+                "size": "16"
+              },
               "text": "Register for the Intranet",
               "href": {
                 "url": "https://intranet.hlb.global",
