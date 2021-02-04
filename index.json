@@ -28,7 +28,7 @@
               "type": "label",
               "style": {
                 "align": "left",
-                "padding-left": "40",
+                "padding-left": "50",
                 "padding-bottom": "16",
                 "color": "#ffffff",
                 "font": "HelveticaNeue",
@@ -44,7 +44,7 @@
               "type": "label",
               "style": {
                 "align": "left",
-                "padding-left": "40",
+                "padding-left": "50",
                 "padding-bottom": "16",
                 "color": "#ffffff",
                 "font": "HelveticaNeue",
