@@ -3,19 +3,57 @@
     "head": {
       "title": "HLB Intranet",
       "actions": {
-        "visit": {
-              "type": "$default"
-          }
+        "$foreground": {
+          "type": "$reload"
+        }
       }
     },
     "body": {
-      "background": {
-        "type": "html",
-        "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
-        "action": {
-          "trigger": "visit"
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "image",
+                "url": "https://i.imgur.com/i1y9IDr.png"
+              }
+            ,
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#fff",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Access the Intranet",
+              "href": {
+                "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
+                "view": "Web"
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#fff",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Register for the Intranet",
+              "href": {
+                "url": "https://intranet.hlb.global",
+                "view": "Web"
+              }
+            }
+          ]
         }
-      }
+      ]
     }
   }
 }
