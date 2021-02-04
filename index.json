@@ -17,9 +17,6 @@
         {
           "items": [
             {
-              "style": {
-                "max-width": "300"
-              },
               "type": "image",
                 "url": "https://i.imgur.com/PRQ3Jgz.png"
               }
@@ -28,10 +25,10 @@
               "type": "label",
               "style": {
                 "align": "right",
-                "padding": "10",
+                "padding": "16",
                 "color": "#ffffff",
                 "font": "HelveticaNeue",
-                "size": "12"
+                "size": "16"
               },
               "text": "Access the Intranet",
               "href": {
@@ -43,10 +40,10 @@
               "type": "label",
               "style": {
                 "align": "right",
-                "padding": "10",
+                "padding": "16",
                 "color": "#ffffff",
                 "font": "HelveticaNeue",
-                "size": "12"
+                "size": "16"
               },
               "text": "Register for the Intranet",
               "href": {
