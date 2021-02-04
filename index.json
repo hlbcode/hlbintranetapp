@@ -18,6 +18,10 @@
           "items": [
             {
               "type": "image",
+              "style": {
+              "width": "100%",
+              "max-width": "1000"
+              },
                 "url": "https://i.imgur.com/PRQ3Jgz.png"
               },
             {
