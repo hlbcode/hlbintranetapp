@@ -5,7 +5,7 @@
        "type": "html",
        "url": "https://dev.hlb.network/hlbmrp/",
          "action": {
-           "type": "$default"
+           "type": "$web"
                }
              }
        }
