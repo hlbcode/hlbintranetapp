@@ -13,68 +13,10 @@
         "background": "#005A77",
         "border": "none"
       },
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "image",
-              "style": {
-              "width": "100%",
-              "max-width": "1000"
-              },
-                "url": "https://i.imgur.com/PRQ3Jgz.png"
-              },
-            {
-              "type": "label",
-              "style": {
-                "align": "left",
-                "padding-left": "50",
-                "padding-bottom": "16",
-                "color": "#ffffff",
-                "font": "HelveticaNeue",
-                "size": "16"
-              },
-              "text": "Access the Intranet",
-              "href": {
-                "url": "https://hlbi.sharepoint.com/sites/hlbintranet/",
-                "view": "Web"
-              }
-            },
-            {
-              "type": "label",
-              "style": {
-                "align": "left",
-                "padding-left": "50",
-                "padding-bottom": "16",
-                "color": "#ffffff",
-                "font": "HelveticaNeue",
-                "size": "16"
-              },
-              "text": "Access the Referrals",
-              "href": {
-                "url": "https://hlbi.sharepoint.com/sites/hlbreferrals/",
-                "view": "Web"
-              }
-            },
-            {
-              "type": "label",
-              "style": {
-                "align": "left",
-                "padding-left": "50",
-                "padding-bottom": "16",
-                "color": "#ffffff",
-                "font": "HelveticaNeue",
-                "size": "16"
-              },
-              "text": "Register for the Intranet",
-              "href": {
-                "url": "https://intranet.hlb.global",
-                "view": "Web"
-              }
-            }
-          ]
-        }
-      ]
+      "background": {
+        "type": "html",
+        "text": "https://dev.hlb.network/hlbmrp/" 
+      }      
     }
   }
 }
