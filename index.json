@@ -1,22 +1,13 @@
 {
   "$jason": {
-    "head": {
-      "title": "HLB Intranet",
-      "actions": {
-        "$foreground": {
-          "type": "$reload"
-        }
-      }
-    },
-    "body": {
-      "style": {
-        "background": "#005A77",
-        "border": "none"
-      },
-      "background": {
-        "type": "html",
-        "text": "https://dev.hlb.network/hlbmrp/" 
-      }      
-    }
-  }
+   "body": {
+     "background": {
+       "type": "html",
+       "url": "https://dev.hlb.network/hlbmrp/",
+         "action": {
+           "type": "$default"
+               }
+             }
+       }
+       }
 }
